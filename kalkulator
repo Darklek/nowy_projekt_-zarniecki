@@ -1,6 +1,27 @@
-ss
-s
-s
-s
-sssssskkk
 
+    while operacja != "10":
+        if operacja == "1":
+            print("wybrałeś dodawanie"), p.dodaj()
+        elif operacja == "2":
+            print("wybrałeś odejmowanie"), p.odejmij()
+        elif operacja == "3":
+            print("wybrałeś mnożenie"), p.mnozenie()
+        elif operacja == "4":
+            print("wybrałeś dzielenie"), p.dzielenie()
+        elif operacja == "5":
+            print("wybrałeś potegowanie"), p.potegowanie()
+        elif operacja == "6":
+            print("wybrałeś pierwiastkowanie"), p.pierwiastkowanie()
+        elif operacja == "7":
+            print("Wylicz sinus "), p.sinus()
+        elif operacja == "8":
+            print("Wylicz cosinus "), p.cosinus()
+        elif operacja == "9":
+            print("Wylicz tangens  "), p.tangens()
+        elif operacja == "0":
+            print(p.menu())
+        elif operacja == "10":
+            break
+        else:
+            print("Error menu")
+        operacja = input("Co wybierzesz ? ")
