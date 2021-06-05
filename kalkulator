@@ -30,7 +30,68 @@ if "1" == operacjax:
         
         
         
-        
+       for x in liczba:
+    if "-" in x:
+        PlikWynikow.write(x)
+        x=x.split('-')
+        dzialanie = str(int(x[0]) - int(x[1]))
+        print(x[0],'-',x[1], "=", dzialanie)
+        PlikWynikow.write("=")
+        PlikWynikow.write(str(dzialanie))
+        PlikWynikow.write("\n")
+    elif "+" in x:
+        PlikWynikow.write(x)
+        x=x.split('+')
+        dzialanie = int(x[0]) + int(x[1])
+        print(x[0],'+',x[1], "=", dzialanie)
+        PlikWynikow.write("=")
+        PlikWynikow.write(str(dzialanie))
+        PlikWynikow.write("\n")
+    elif "*" in x:
+        PlikWynikow.write(x)
+        x=x.split('*')
+        dzialanie = str(int(x[0]) * int(x[1]))
+        print(x[0],'*',x[1], "=", dzialanie)
+        PlikWynikow.write("=")
+        PlikWynikow.write(str(dzialanie))
+        PlikWynikow.write("\n")
+    elif "^" in x:
+        PlikWynikow.write(x)
+        x=x.split('^')
+        dzialanie = str(int(x[0]) ** int(x[1]))
+        print(x[0],'^',x[1], "=", dzialanie)
+        PlikWynikow.write("=")
+        PlikWynikow.write(str(dzialanie))
+        PlikWynikow.write("\n")
+    elif "/" in x:
+        PlikWynikow.write(x)
+        x=x.split('/')
+        dzialanie = str(int(x[0]) / int(x[1]))
+        print(x[0],'/',x[1], "=", dzialanie)
+        PlikWynikow.write("=")
+        PlikWynikow.write(str(dzialanie))
+        PlikWynikow.write("\n")
+    elif "sin" in x:
+        dzialanie = str(math.sin(int(x[-2])))
+        print(x, "=", dzialanie)
+        PlikWynikow.write(x)
+        PlikWynikow.write("=")
+        PlikWynikow.write(str(dzialanie))
+        PlikWynikow.write("\n")
+    elif "cos" in x:
+        dzialanie = str(math.cos(int(x[-2])))
+        print(x, "=", dzialanie)
+        PlikWynikow.write(x)
+        PlikWynikow.write("=")
+        PlikWynikow.write(str(dzialanie))
+        PlikWynikow.write("\n")
+    elif "tan" in x:
+        dzialanie = str(math.tan(int(x[-2])))
+        print(x, "=", dzialanie)
+        PlikWynikow.write(x)
+        PlikWynikow.write("=")
+        PlikWynikow.write(str(dzialanie))
+        PlikWynikow.write("\n") 
         
         
         
