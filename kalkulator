@@ -105,12 +105,7 @@ elif operacjax=="2":
         def liczba(self):
             while True:
                 num = input("Proszę podać liczbe ")
-        
-        
-        
-        
-        
-        
+               
         
     while operacja != "10":
         if operacja == "1":
