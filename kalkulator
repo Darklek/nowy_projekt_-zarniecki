@@ -93,7 +93,24 @@ if "1" == operacjax:
         PlikWynikow.write(str(dzialanie))
         PlikWynikow.write("\n") 
         
-        
+        print("Wyniki zapisane  w PlikWynikow.txt")
+elif operacjax=="2":
+    class Calculator():
+        def menu(self):
+            print("MENU\n"
+                  "1 - dodawanie\n"
+                  "2 - odejmowanie\n"
+                  "3 - mnożenie\n"
+                  "4 - dzielenie\n"
+                  "5 - potegowanie\n"
+                  "6 - pierwiastkowanie\n"
+                  "7 - sinus\n"
+                  "8 - cosinus\n"
+                  "9 - tangens\n"
+                  "0 - MENU\n")
+        def liczba(self):
+            while True:
+                num = input("Proszę podać liczbe ")
         
         
         
