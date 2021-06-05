@@ -86,7 +86,6 @@ if "1" == operacjax:
         PlikWynikow.write("=")
         PlikWynikow.write(str(dzialanie))
         PlikWynikow.write("\n") 
-        
         print("Wyniki zapisane  w PlikWynikow.txt")
 elif operacjax=="2":
     class Calculator():
@@ -104,9 +103,7 @@ elif operacjax=="2":
                   "0 - MENU\n")
         def liczba(self):
             while True:
-                num = input("Proszę podać liczbe ")
-               
-        
+                num = input("Proszę podać liczbe ")  
     while operacja != "10":
         if operacja == "1":
             print("wybrałeś dodawanie"), p.dodaj()
