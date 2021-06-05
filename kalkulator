@@ -24,12 +24,6 @@ if "1" == operacjax:
         sys.exit(0)
     else:
         print("Dane wczytane z ", PlikDanych)
-        
-        
-        
-        
-        
-        
        for x in liczba:
     if "-" in x:
         PlikWynikow.write(x)
