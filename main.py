@@ -101,3 +101,4 @@ print(stop - start)
 print(dane1)
 
 print(wyszukiwanie_binarne(dane1, 37))
+mogę coś edytować  MCH
